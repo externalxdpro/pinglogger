@@ -4,10 +4,10 @@ logfile="log.txt"
 target="google.com"
 sleep_timer=60
 
-if [ -n $1 ]; then
+if [ -n "$1" ]; then
     target=$1
 fi
-if [ -n $2 ]; then
+if [ -n "$2" ]; then
     sleep_timer=$2
 fi
 
