@@ -4,4 +4,4 @@ WORKDIR /app
 COPY pinglogger.sh .
 RUN chmod +x pinglogger.sh
 
-CMD ["./pinglogger.sh"]
+CMD ["./pinglogger.sh", "google.com", "20"]
