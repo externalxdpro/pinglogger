@@ -1,0 +1,6 @@
+services:
+  pinglogger:
+    build: .
+    container_name: pinglogger
+    volumes:
+      - /data/pinglogger/log.txt:/app/log.txt:ro
