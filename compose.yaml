@@ -2,3 +2,5 @@ services:
   pinglogger:
     build: .
     container_name: pinglogger
+    volumes:
+      - /etc/localtime:/etc/localtime:ro
