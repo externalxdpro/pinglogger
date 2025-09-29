@@ -4,3 +4,4 @@ services:
     container_name: pinglogger
     volumes:
       - /etc/localtime:/etc/localtime:ro
+    restart: unless-stopped
